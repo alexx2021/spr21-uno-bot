@@ -7,6 +7,9 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='!', case_insensitive=True, allowed_mentions=discord.AllowedMentions(roles=False, users=True, everyone=False))
 
+#test commit
+
+
 #stores which user corresponds with which channel
 bot.channel_assignments = {}
 
